@@ -1,3 +1,7 @@
+require 'pry'
+
 def square_array(array)
-  # your code here
+  square_array =[]
+  array.each { |n| square_array << n ** 2 } 
+ square_array
 end

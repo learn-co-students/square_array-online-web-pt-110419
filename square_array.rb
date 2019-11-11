@@ -1,3 +1,13 @@
+
+
 def square_array(array)
-  # your code here
+  totSqr = []
+  array.each do |num| 
+    totSqr.push(num * num)
+  end
+  array = totSqr
 end
+
+
+
+

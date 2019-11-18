@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+it 'does not call on collect/map or inject' do
 end
